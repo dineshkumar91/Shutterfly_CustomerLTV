@@ -12,3 +12,9 @@ number of site visits per week = Total no. of visits by the customer / Total no.
 Total no. of weeks in consideration (timeframe) is obtained by subtracting the earliest event date and the latest event date. 
 Sunday is considered to be the start of the week
 
+# Directory strtucture
+- src (Source code is present here - src/simpleltv.py)
+- input (Input data is provided here - input/input/txt)
+- output (The output simple LTV information is saved as a text file - output/output.txt)
+- sample_input (One event for each type is provided here)
+- tests (Unittest cases written to test the code as provided here - tests/test_simpleltv.py, a sample test input file is also provided - tests/test_input.txt)
