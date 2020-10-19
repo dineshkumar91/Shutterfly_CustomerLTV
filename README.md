@@ -30,7 +30,7 @@ However, in this assignment, the no. of customer site visits are also stored and
 # Running the code - Input/Output
 - The input file **input/input.txt** contains events spread across a few weeks for 5 different customers.  
 
-- Run the source code **src/simpleltv.py** and enter the number of customers (X) between 1 to 5. 
+- Run the source code **src/simpleltv.py**. A user input for the number of customers (X) is required. Enter an integer value between 1 to 5. 
 This will display the top X customers and their corresponding LTV information. 
 
 - The output of this program can also be found in the **output/output.txt** file
@@ -62,10 +62,5 @@ This will display the top X customers and their corresponding LTV information.
 - The `visit_times` list has a space complexity of O(N). To save space, this list can be replaced by two variables that store the start_date and end_date (these variables can be updated after every event) 
 
 
-
 # Requirements
 unittest
-
-    
-
-    
