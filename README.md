@@ -1,6 +1,7 @@
 # Shutterfly_CustomerLTV
 Coding challenge from Shutterfly
 
+
 # Overview - Simple LTV Calculation
 Simple LTV is calculated using the equation `52(a)` x `t` (here `t` = `10 years`)  
 The main focus of this assignment is to compute the value for `a`
@@ -8,11 +9,9 @@ The main focus of this assignment is to compute the value for `a`
 where `a` = customer expenditure per visit x number of visits per week
 
    	customer expenditure per visit = Total amount spent by the customer / Total no. of site visits by the customer
+      number of site visits per week = Total no. of site visits by the customer / Total no. of weeks in consideration
 
-    number of site visits per week = Total no. of site visits by the customer / Total no. of weeks in consideration
-
-Total no. of weeks in consideration (timeframe) is obtained by subtracting the earliest event date and the latest event date.   
-Sunday is considered to be the start of the week.
+Total no. of weeks in consideration (timeframe) is obtained by subtracting the earliest event date and the latest event date. Sunday is considered to be the start of the week.
 
 `Note:` In the formulae mentioned above, it can be seen that the `total no. of site visits by the customer` cancels out.   
 LTV can be calculated by an  alternate equation without using the customer_site_visits:       
@@ -43,7 +42,6 @@ unittest module has been extensively used to test the code.
 9 different test cases can be found in the **tests/test_simpleltv.py** file.
 
 
-
 # Design Decisions/Performance
 - Two dictionaries are used to store the customer information `D1 (customer_site_visits)` & `D2 (customer_expenditure)`
 
@@ -53,9 +51,11 @@ unittest module has been extensively used to test the code.
 
 - `TopXSimpleLTVCustomers` takes the customer dictionaries as input, computes LTV and displays the top X customers. This takes O(NlogN) time.
 
+
 # Future Improvement
 - Events are processed by the `ingest` function one at a time. Parallel processing techniques can be adopted for performance improvement in the future.
 - The `visit_times` list has a space complexity of O(N). To save space, this list can be replaced by two variables that store the start_date and end_date (these variables can be updated after every event) 
+
 
 # Corner Cases
 
