@@ -44,7 +44,7 @@ unittest module has been extensively used to test the code.
 
 - A list is used to store all the event times - `visit_times`. The total no. of weeks in consideration is computed from this list
 
-# Performance
+# Performance Improvement
 - Events are processed by the `ingest` function one at a time. Parallel processing techniques can be adopted for performance improvement in the future.
 - The `visit_times` list has a space complexity of O(N). To save space, this list can be replaced by two variables that store the start_date and end_date (these variables can be updated after every event) 
 
