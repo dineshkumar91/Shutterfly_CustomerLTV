@@ -1,0 +1,1 @@
+[{"type": "CUSTOMER", "verb": "NEW", "key": "cust_12345", "event_time": "2020-10-15T12:46:46.384Z"}]
