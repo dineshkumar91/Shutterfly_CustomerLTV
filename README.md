@@ -8,7 +8,7 @@ The main focus of this assignment is to compute the value for `a`
 
    where `a` = customer expenditure per visit x number of visits per week
 
-   	  customer expenditure per visit = Total amount spent by the customer / Total no. of site visits by the customer
+   	 customer expenditure per visit = Total amount spent by the customer / Total no. of site visits by the customer
        number of site visits per week = Total no. of site visits by the customer / Total no. of weeks in consideration
 
 - Total no. of weeks in consideration (timeframe) is obtained by subtracting the earliest event date and the latest event date. Sunday is considered to be the start of the week.
