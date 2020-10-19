@@ -13,7 +13,8 @@ The main focus of this assignment is to compute the value for `a`
 
 - Total no. of weeks in consideration (timeframe) is obtained by subtracting the earliest event date and the latest event date. Sunday is considered to be the start of the week.
 
-`Note:` In the formulae mentioned above, it can be seen that the `total no. of site visits by the customer` cancels out. LTV can be calculated by an  alternate equation without using the customer_site_visits:       
+`Note:` In the formulae mentioned above, it can be seen that the `total no. of site visits by the customer` cancels out. 
+LTV can be calculated by an  alternate equation without using the customer_site_visits:       
 `52` * `Total amount spent by the customer` * `100` / `Total no. weeks in consideration`
 However, in this assignment, the no. of customer site visits are also stored and used since it is an important business metric
 
