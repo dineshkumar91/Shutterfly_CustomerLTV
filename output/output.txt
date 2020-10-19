@@ -1,0 +1,5 @@
+Customer ID: 96f55c7d8f43     LTV: 77610.0
+Customer ID: 96f55c7d8f44     LTV: 38870.0
+Customer ID: 96f55c7d8f45     LTV: 29042.0
+Customer ID: 96f55c7d8f42     LTV: 16042.0
+Customer ID: 96f55c7d8f41     LTV: 14703.0
